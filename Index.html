@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandme Code Editor</title>
+    <link rel="stylesheet" href="Brandme Code Editor styl.css">
+    <script src="Brandme Code Editor app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <label for="HTML-code">HTML CODE</label>
+            <textarea name="" id="HTML-code" onkeyup="run()"></textarea>
+
+            <label for="CSS-code">CSS CODE</label>
+            <textarea name="" id="CSS-code" onkeyup="run()"></textarea>
+
+            <label for="JS-code">JS CODE</label>
+            <textarea name="" id="JS-code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label for="output"></label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+</body>
+</html>
